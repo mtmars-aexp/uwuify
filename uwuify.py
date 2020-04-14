@@ -8,8 +8,6 @@ regex_patterns = {r"l": "w",
                   r"!+": "! owo",
                   r"?+": "? uwu"}
 
-full_stop_replacements = [".",". owo","!!!!", ". uwu",]
-
 while True:
     input_string = input("Enter sentence: ").lower()
     for pattern, replace in regex_patterns.items():
